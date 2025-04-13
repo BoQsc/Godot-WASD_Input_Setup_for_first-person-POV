@@ -1,5 +1,17 @@
 ### First Person Point of View Input Actions for Godot
-Keyboard actions for First Person Point of View.   
+Keyboard actions for First Person Point of View.
+
+Automatically setups WASD input actions for the current project.
+The actions added after enabling this plugin:
+move_forward  - W keyboard key
+move_backward - S keyboard key
+move_left     - A keyboard key
+move_right    - D keyboard key
+
+Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings. 
+
+____
+
 
 Future Note: the CharacterBody3D template's `ui_` are not made to be overriden the entire vector variable should be tried to replace if it is possible using gd godot script.
 
