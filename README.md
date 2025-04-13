@@ -3,10 +3,10 @@ Keyboard actions for First Person Point of View.
 
 Automatically setups WASD input actions for the current project.  
 The actions added after enabling this plugin:  
-move_forward  - W keyboard key  
-move_backward - S keyboard key  
-move_left     - A keyboard key  
-move_right    - D keyboard key  
+* `move_forward`  - W keyboard key  
+* `move_backward` - S keyboard key  
+* `move_left`     - A keyboard key  
+* `move_right`    - D keyboard key  
 
 [Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings.](https://github.com/godotengine/godot/issues/80808#issuecomment-2799877255)   
 
