@@ -12,8 +12,8 @@ These then can be used as a direct replacement in CharacterBody3D template scrip
 How to: 
 1. Enable this plugin
 2. Open `CharacterBody3D.gd`
-3. Replace `var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")`  
-    With `var input_dir := Input.get_vector("move_left", "move_right", "move_forward", "move_backward")`
+3. Replace: `var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")`  
+    With: `var input_dir := Input.get_vector("move_left", "move_right", "move_forward", "move_backward")`
 
 [Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings.](https://github.com/godotengine/godot/issues/80808#issuecomment-2799877255)   
 
