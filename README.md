@@ -3,7 +3,7 @@ Keyboard actions for First Person Point of View.
 
 Future Note: the CharacterBody3D template's `ui_` are not made to be overriden the entire vector variable should be tried to replace if it is possible using gd godot script.
 
-
+wasd_setup_for_first_person_perspective
 Godot-WASD-Input-Map_for-pov-first-person
 
 3d-first-person-pov-wasd-input-actions  
