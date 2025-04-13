@@ -8,7 +8,7 @@ move_backward - S keyboard key
 move_left     - A keyboard key  
 move_right    - D keyboard key  
 
-Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings.   
+[Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings.](https://github.com/godotengine/godot/issues/80808#issuecomment-2799877255)   
 
 ____
 
