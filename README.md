@@ -3,6 +3,7 @@ Keyboard actions for First Person Point of View.
 
 Godot-WASD-Input-Map_for-pov-first-person
 
+3d-first-person-pov-wasd-ipnut-actions  
 3d-First-Person-POV-WASD-Input-Actions  
 
 WASD-Input-Actions-for-3d-First-Person-POV
