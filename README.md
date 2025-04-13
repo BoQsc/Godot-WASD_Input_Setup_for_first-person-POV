@@ -22,6 +22,8 @@ Note: due to signal emission problems, the editor do not show immediate changes 
 However all is working on activation and reloading project or closing project and reopening.
 
 References and acknowledgements  
+https://github.com/godotengine/godot/pull/53296
+
 https://docs.godotengine.org/en/stable/classes/class_projectsettings.html  
 
 https://www.reddit.com/r/godot/comments/1dpmjgw/how_to_emit_signals_from_another_node/
@@ -37,3 +39,4 @@ https://forum.godotengine.org/t/how-to-add-an-inputevent-to-inputmap-with-code/2
 https://docs.godotengine.org/en/stable/classes/class_editorsettings.html
 https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-method-set-restart-if-changed
 https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-key
+https://docs.godotengine.org/en/4.4/tutorials/inputs/inputevent.html#actions
