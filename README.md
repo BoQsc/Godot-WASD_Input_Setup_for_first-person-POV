@@ -1,3 +1,5 @@
+### First Person Point of View Input Actions for Godot
+
 Godot-WASD-Input-Map_for-pov-first-person
 
 
@@ -18,3 +20,6 @@ move_right    - D keyboard key
 
 Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings. 
 However all is working on activation and reloading project or closing project and reopening.
+
+References and acknowledgements  
+https://docs.godotengine.org/en/stable/classes/class_projectsettings.html  
