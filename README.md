@@ -27,7 +27,7 @@ move_left     - A keyboard key
 move_right    - D keyboard key
 
 Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings. 
-However all is working on activation and reloading project or closing project and reopening.
+However all is working on activation and reloading project or closing/reopening project will make Godot Editor Input Map Settings UI to recognize.
 
 References and acknowledgements  
 https://github.com/godotengine/godot/pull/53296
