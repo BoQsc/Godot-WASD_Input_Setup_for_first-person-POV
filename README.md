@@ -23,3 +23,17 @@ However all is working on activation and reloading project or closing project an
 
 References and acknowledgements  
 https://docs.godotengine.org/en/stable/classes/class_projectsettings.html  
+
+https://www.reddit.com/r/godot/comments/1dpmjgw/how_to_emit_signals_from_another_node/
+https://docs.godotengine.org/en/stable/classes/class_editorplugin.html#class-editorplugin-signal-project-settings-changed
+
+https://www.reddit.com/r/godot/comments/156vfhg/whats_the_difference_emit_signal_vs_signalemit/  
+
+
+Research notes   
+https://github.com/godotengine/godot/pull/80902
+https://github.com/godotengine/godot-proposals/issues/7525
+https://forum.godotengine.org/t/how-to-add-an-inputevent-to-inputmap-with-code/27923/5
+https://docs.godotengine.org/en/stable/classes/class_editorsettings.html
+https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-method-set-restart-if-changed
+https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-key
