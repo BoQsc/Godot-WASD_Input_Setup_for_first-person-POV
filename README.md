@@ -25,6 +25,7 @@ Future Note: the CharacterBody3D template's `ui_` are not made to be overriden t
 wasd_setup_for_first_person_perspective
 Godot-WASD-Input-Map_for-pov-first-person
 
+3d-wasd-first-person-pov-input-actions  
 3d-first-person-pov-wasd-input-actions  
 3d-First-Person-POV-WASD-Input-Actions  
 
