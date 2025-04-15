@@ -29,7 +29,7 @@ wasd_setup_for_first_person_perspective
 Godot-WASD-Input-Map_for-pov-first-person
 
 3D First Person Adventure WASDEF Input Map Action  
-3D First Person Shooter WASDEFTGHXQZC Input Map Action (C - Crouch, E - Interact, F - Toggle/Item, Q - QuickSwap, G - DropItem, I - Inventory, Z - LayingOnGround, T - Quests, P - Journal, M - Map, L- ?)  
+3D First Person Shooter WASDEFTGHXQZC Input Map Action (R - Reload, C - Crouch, E - Interact, F - Toggle/Item, Q - QuickSwap, G - DropItem, I - Inventory, Z - LayingOnGround, T - Quests, P - Journal, M - Map, L- ?)  
 
 3d-wasd-first-person-pov-input-actions  
 3d-first-person-pov-wasd-input-actions  
