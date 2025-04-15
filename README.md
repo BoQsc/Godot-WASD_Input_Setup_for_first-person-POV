@@ -25,7 +25,7 @@ Future Note: the CharacterBody3D template's `ui_` are not made to be overriden t
 wasd_setup_for_first_person_perspective
 Godot-WASD-Input-Map_for-pov-first-person
 
-3D First Person Adventure WASDEF Input Map Action
+3D First Person Adventure WASDEF Input Map Action  
 3D First Person Shooter WASDEF Input Map Action
 
 3d-wasd-first-person-pov-input-actions  
