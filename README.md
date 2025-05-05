@@ -52,6 +52,11 @@ move_backward - S keyboard key
 move_left     - A keyboard key
 move_right    - D keyboard key
 
+walk_forward  - W keyboard key
+walk_backward - S keyboard key
+walk_left     - A keyboard key
+walk_right    - D keyboard key
+
 Note: due to signal emission problems, the editor do not show immediate changes in the Godot Editor Project Input Map Settings. 
 However all is working on activation and reloading project or closing/reopening project will make Godot Editor Input Map Settings UI to recognize.
 
