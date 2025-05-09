@@ -18,11 +18,12 @@ func _enable_plugin() -> void:
 	# Also resets the state of plugin being enabled, this is a restart_editor(true) bug probably.
 	# Makes disabling this plugin an impossible thing.
 	# get_editor_interface().restart_editor(true)
+	# Alternative new syntax: 	EditorInterface.restart_editor()
 
 	# [This is useless, can be removed]
 	# Do not seem to do anything
 	#InputMap.load_from_project_settings()
-	# Alternative syntax: 	EditorInterface.restart_editor()
+
 
 	# [This is useless, can be removed]
 	# Do not seem to do anything
