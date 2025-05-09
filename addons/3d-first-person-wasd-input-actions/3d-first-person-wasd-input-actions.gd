@@ -22,6 +22,7 @@ func _enable_plugin() -> void:
 	# [This is useless, can be removed]
 	# Do not seem to do anything
 	#InputMap.load_from_project_settings()
+	# Alternative syntax: 	EditorInterface.restart_editor()
 
 	# [This is useless, can be removed]
 	# Do not seem to do anything
