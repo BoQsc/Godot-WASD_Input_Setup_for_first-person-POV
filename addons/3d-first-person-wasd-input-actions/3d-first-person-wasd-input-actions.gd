@@ -12,7 +12,8 @@ func _enable_plugin() -> void:
 	# Save to project.godot
 	ProjectSettings.save()
 	print("Input actions saved to Project Settings.")
-	
+
+	# [Godot Editor Restarting]
 	# Works, but restarts entire editor instead of only project settings window
 	# Also resets the state of plugin being enabled, this is a restart_editor(true) bug probably.
 	# Makes disabling this plugin an impossible thing.
