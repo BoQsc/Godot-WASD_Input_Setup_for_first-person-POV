@@ -15,6 +15,7 @@ func _enable_plugin() -> void:
 	
 	# Works, but restarts entire editor instead of only project settings window
 	# Also resets the state of plugin being enabled, this is a restart_editor(true) bug probably.
+	# Makes disabling this plugin an impossible thing.
 	# get_editor_interface().restart_editor(true)
 	
 	#InputMap.load_from_project_settings()
