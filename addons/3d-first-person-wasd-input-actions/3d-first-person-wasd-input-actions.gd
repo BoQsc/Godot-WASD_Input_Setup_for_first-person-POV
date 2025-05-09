@@ -11,7 +11,7 @@ func _enable_plugin() -> void:
 	
 	# Save to project.godot
 	ProjectSettings.save()
-	print("Input actions saved to Project Settings.")
+	print("[3d-first-person-wasd-input-actions] Plugin: Input actions saved to Project Settings.")
 
 	# [Godot Editor Restarting]
 	# Works, but restarts entire editor instead of only project settings window
@@ -49,7 +49,7 @@ func _disable_plugin() -> void:
 	
 	# Save to project.godot
 	ProjectSettings.save()
-	print("Input actions saved to Project Settings.")
+	print("[3d-first-person-wasd-input-actions] Plugin: Input actions saved to Project Settings.")
 	
 	# [This is useless, can be removed]
 	# Do not seem to do anything
