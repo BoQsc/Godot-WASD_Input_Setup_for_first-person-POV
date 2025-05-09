@@ -13,20 +13,23 @@ func _enable_plugin() -> void:
 	ProjectSettings.save()
 	print("Input actions saved to Project Settings.")
 	
-	# Do not seem to do anything, maybe a bug.
-	ProjectSettings.settings_changed.emit()
-	emit_signal("project_settings_changed");
-	print("  Emitted ProjectSettings.settings_changed signal.")
 	
-# 	Do not seem to do anything, needs research
-	ProjectSettings.set_restart_if_changed("input/move_forward", true)
+	#InputMap.load_from_project_settings()
+	
+	# Do not seem to do anything
+	# ProjectSettings.settings_changed.emit()
+	# emit_signal("project_settings_changed");
+	# print("  Emitted ProjectSettings.settings_changed signal.")
+	
+	# Do not seem to do anything
+	# ProjectSettings.set_restart_if_changed("input/move_forward", true)
 
 	
 
 
 func _disable_plugin() -> void:
-# 	Do not seem to do anything, needs research
-	ProjectSettings.set_restart_if_changed("input/move_forward", true)
+	#Do not seem to do anything
+	#ProjectSettings.set_restart_if_changed("input/move_forward", true)
 	
 	# Removal of actions
 	remove_action("move_forward", KEY_W)
@@ -38,10 +41,10 @@ func _disable_plugin() -> void:
 	ProjectSettings.save()
 	print("Input actions saved to Project Settings.")
 	
-	# Do not seem to do anything, maybe a bug.
-	ProjectSettings.settings_changed.emit()
-	emit_signal("project_settings_changed");
-	print("  Emitted ProjectSettings.settings_changed signal.")
+	# Do not seem to do anything
+	#ProjectSettings.settings_changed.emit()
+	#emit_signal("project_settings_changed");
+	#print("  Emitted ProjectSettings.settings_changed signal.")
 
 
 
