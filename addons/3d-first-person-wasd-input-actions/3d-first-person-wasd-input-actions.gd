@@ -18,14 +18,18 @@ func _enable_plugin() -> void:
 	# Also resets the state of plugin being enabled, this is a restart_editor(true) bug probably.
 	# Makes disabling this plugin an impossible thing.
 	# get_editor_interface().restart_editor(true)
-	
+
+	# [This is useless, can be removed]
+	# Do not seem to do anything
 	#InputMap.load_from_project_settings()
-	
+
+	# [This is useless, can be removed]
 	# Do not seem to do anything
 	# ProjectSettings.settings_changed.emit()
 	# emit_signal("project_settings_changed");
 	# print("  Emitted ProjectSettings.settings_changed signal.")
-	
+
+	# [This is useless, can be removed]
 	# Do not seem to do anything
 	# ProjectSettings.set_restart_if_changed("input/move_forward", true)
 
@@ -33,7 +37,8 @@ func _enable_plugin() -> void:
 
 
 func _disable_plugin() -> void:
-	#Do not seem to do anything
+	# [This is useless, can be removed]
+	# Do not seem to do anything
 	#ProjectSettings.set_restart_if_changed("input/move_forward", true)
 	
 	# Removal of actions
@@ -46,6 +51,7 @@ func _disable_plugin() -> void:
 	ProjectSettings.save()
 	print("Input actions saved to Project Settings.")
 	
+	# [This is useless, can be removed]
 	# Do not seem to do anything
 	#ProjectSettings.settings_changed.emit()
 	#emit_signal("project_settings_changed");
