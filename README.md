@@ -11,6 +11,12 @@ The actions added after enabling this plugin:
 * `move_left`     - A keyboard key  
 * `move_right`    - D keyboard key  
 
+Todo: Introduce the standard `move_back` to replace `move_backward`, since it is more common to use `move_back`.
+
+
+
+
+
 These then can be used as a direct replacement in CharacterBody3D template script.
 How to: 
 1. Enable this plugin
