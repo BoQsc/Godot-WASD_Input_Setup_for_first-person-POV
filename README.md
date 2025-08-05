@@ -11,7 +11,7 @@ The actions added after enabling this plugin:
 * `move_left`     - A keyboard key  
 * `move_right`    - D keyboard key  
 
-Todo Done: Introduce the standard `move_back` to replace `move_backward`, since it is more common to use `move_back`.  
+Todo done: Introduce the standard `move_back` to replace `move_backward`, since it is more common to use `move_back`.  
 Todo: consider adding for easy conversion in CharacterBody3D:   
 * `move_up`  - W keyboard key    
 * `move_down` - S keyboard key    
