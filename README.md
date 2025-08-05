@@ -7,12 +7,14 @@ Keyboard actions for First Person Point of View.
 Automatically setups WASD input actions for the current project.  
 The actions added after enabling this plugin:  
 * `move_forward`  - W keyboard key  
-* `move_backward` - S keyboard key  
+* `move_back` - S keyboard key  
 * `move_left`     - A keyboard key  
 * `move_right`    - D keyboard key  
 
-Todo: Introduce the standard `move_back` to replace `move_backward`, since it is more common to use `move_back`.
-
+Todo Done: Introduce the standard `move_back` to replace `move_backward`, since it is more common to use `move_back`.
+Todo: consider adding for easy conversion in CharacterBody3D:  
+* `move_up`  - W keyboard key    
+* `move_down` - S keyboard key    
 
 
 
