@@ -16,7 +16,7 @@ Todo done: consider adding for easy conversion in CharacterBody3D:
 * `move_up`  - W keyboard key    
 * `move_down` - S keyboard key    
 
-Todo done: Replace `move_forward` with `move_front` but keep it for legacy/standard.
+Todo done: Replace `move_forward` with aesthetically pleasant `move_front` but keep `move_forward` for legacy/standard.
 * `move_forward`  - W keyboard key  
 
 
