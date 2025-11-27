@@ -1,8 +1,12 @@
 @tool
 extends EditorPlugin
 
+const RegexFeatureScript = preload("activate_feature_regex.gd")
+var regex_feature_instance
 
 func _enable_plugin() -> void:
+	regex_feature_instance = RegexFeatureScript.new()
+	
 	# Input actions here
 	add_action("move_forward", KEY_W)
 	add_action("move_backward", KEY_S)
@@ -39,6 +43,10 @@ func _enable_plugin() -> void:
 
 
 func _disable_plugin() -> void:
+	if regex_feature_instance:
+		regex_feature_instance.revert_changes()
+		regex_feature_instance = null
+	
 	# [This is useless, can be removed]
 	# Do not seem to do anything
 	#ProjectSettings.set_restart_if_changed("input/move_forward", true)
