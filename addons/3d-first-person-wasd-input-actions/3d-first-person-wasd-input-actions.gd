@@ -3,10 +3,18 @@
 extends EditorPlugin
 
 const RegexFeatureScript = preload("activate_feature_regex.gd")
+const TemplateFeatureScript = preload("add_script_templates.gd") # Added preload
+
 var regex_feature_instance
+var template_feature_instance # Added instance variable
 
 func _enable_plugin() -> void:
 	regex_feature_instance = RegexFeatureScript.new()
+	
+	# Activate script templates
+	template_feature_instance = TemplateFeatureScript.new()
+	if template_feature_instance.has_method("sync_templates"):
+		template_feature_instance.sync_templates()
 	
 	# Input actions here
 	add_action("move_forward", KEY_W)
@@ -47,6 +55,12 @@ func _disable_plugin() -> void:
 	if regex_feature_instance:
 		regex_feature_instance.revert_changes()
 		regex_feature_instance = null
+		
+	# Deactivate script templates
+	if template_feature_instance:
+		if template_feature_instance.has_method("remove_synced_templates"):
+			template_feature_instance.remove_synced_templates()
+		template_feature_instance = null
 	
 	# [This is useless, can be removed]
 	# Do not seem to do anything

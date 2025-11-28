@@ -1,24 +1,26 @@
 # filename: add_script_templates.gd
 @tool
-extends EditorPlugin
+extends RefCounted
 
-# Update "YOUR_ADDON_NAME" to your actual folder name
+# Update "YOUR_ADDON_NAME" if your folder name is different
 const ADDON_TEMPLATES = "res://addons/3d-first-person-wasd-input-actions/script_templates/"
 const PROJECT_TEMPLATES = "res://script_templates/"
 
-func _enter_tree():
+# Renamed from _enter_tree to be called manually
+func install_templates():
 	# Ensure project templates directory exists for CharacterBody3D
 	if not DirAccess.dir_exists_absolute(PROJECT_TEMPLATES + "CharacterBody3D/"):
 		DirAccess.open("res://").make_dir_recursive_absolute(PROJECT_TEMPLATES + "CharacterBody3D/")
 	
 	# Sync templates from addon to project location
 	sync_templates()
-	print("CharacterBody3D templates synced!")
+	print("[3d-first-person-wasd] CharacterBody3D templates synced!")
 
-func _exit_tree():
+# Renamed from _exit_tree to be called manually
+func remove_templates():
 	# Remove synced templates when plugin disabled
 	remove_synced_templates()
-	print("CharacterBody3D templates removed!")
+	print("[3d-first-person-wasd] CharacterBody3D templates removed!")
 
 func sync_templates():
 	# Look specifically in the CharacterBody3D folder of your addon
@@ -43,5 +45,5 @@ func copy_template_file(filename: String):
 			dest.close()
 
 func remove_synced_templates():
-	# Remove only the specific file
+	# Remove only the specific file as defined in your original code 
 	DirAccess.open("res://").remove_absolute(PROJECT_TEMPLATES + "CharacterBody3D/wasd_movement.gd")
