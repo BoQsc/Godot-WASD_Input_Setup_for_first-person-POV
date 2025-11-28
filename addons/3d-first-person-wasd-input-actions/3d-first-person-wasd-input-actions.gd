@@ -1,3 +1,4 @@
+# filename: 3d-first-person-wasd-input-actions.gd
 @tool
 extends EditorPlugin
 
