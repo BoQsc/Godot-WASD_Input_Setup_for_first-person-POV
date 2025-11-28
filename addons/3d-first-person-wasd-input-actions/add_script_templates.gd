@@ -1,3 +1,4 @@
+# filename: add_script_templates.gd
 @tool
 extends EditorPlugin
 
